@@ -1,0 +1,17 @@
+{
+  "name": "insta-unfollow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Visible Chrome automation to unfollow 15 users per hour on Instagram.",
+  "main": "insta-unfollow.js",
+  "type": "module",
+  "scripts": {
+    "start": "node insta-unfollow.js",
+    "prepare": "echo 'No browser download needed; using Chrome Stable installed on your machine.'"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.46.0"
+  }
+}
+
